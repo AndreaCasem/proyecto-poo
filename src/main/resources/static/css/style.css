@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+body {
+    background-color:#F1F6F9;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em 3em;
+    height: 100vh;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2{
+    color: #2B3894;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    gap: 2em;
+}
+
+.item-menu {
+    list-style: none; 
+}
+
+.item-menu a {
+    color: black;
+}
+
+.item-menu a:hover{
+    color: #5766CE;
+    transition: all 5ms;
+}
+/* FIN HEADER */
+
+/* INICIO */
+h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    color: #2B3894;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.intro-text {
+    padding: 5em 0;
+}
+
+.intro-description {
+    margin: 2em 0 4em;
+}
+
+
+.intro-image img{
+    width: 400px;
+}
+
+/* FIN INICIO */
+
+/* FORMULARIOS */
+h2 {
+    color: #2B3894;
+    text-align: center;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 6em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+input {
+    padding: .5em;
+    margin: .3em 0;
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn-form {
+    padding: 1em;
+    border: none;
+    border-radius: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    background-color: #2B3894;
+}
+
+.btn-form:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 13px 13px 19px -14px rgba(43, 56, 148, 1);
+    -moz-box-shadow: 13px 13px 19px -14px rgba(43, 56, 148, 1);
+    box-shadow: 13px 13px 19px -14px rgba(43, 56, 148, 1);
+}    
+/* FIN FORMULARIOS */
+
+/* TABLAS */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.table-action {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-action:hover {
+    cursor: pointer;
+    color: #5766CE;
+}
+/* FIN TABLAS */
